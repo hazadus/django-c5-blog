@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Django Blog App</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="{% url 'home' %}">Django Blog - Home</a></h1>
+        </header>
+        <main>
+            {% block content %}
+            {% endblock content %}
+        </main>
+        <footer>
+            &copy; hazadus.ru, 2022
+        </footer>
+    </body>
+</html>

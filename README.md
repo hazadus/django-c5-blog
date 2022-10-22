@@ -2,7 +2,8 @@
 Tutorial app from ['Django for Beginners' WSV's book](https://learndjango.com/books/).
 
 ## Features
-- Class-based views.
+- Class-based views -  `CreateView`, `UpdateView`, `DeleteView`.
+- Using static CSS files.
 - Tests.
 
 ## References

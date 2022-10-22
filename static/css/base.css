@@ -16,6 +16,16 @@ header h1 a {
     text-decoration: none;
 }
 
+header h2 a {
+    color: darkslateblue;
+    font-family: 'Fasthand', cursive;
+    text-decoration: none;
+}
+
+header h2 a:hover {
+    text-decoration: underline;
+}
+
 article {
     margin-bottom: 2rem;
 }
@@ -50,10 +60,12 @@ footer {
 }
 
 .nav-left {
-    /*margin-right: auto;*/
+    margin-right: auto;
 }
 
 .nav-right {
-    /*display: flex;*/
+    display: flex;
     /*padding-top: 2rem;*/
+    margin-bottom: auto;
+    margin-top: auto;
 }

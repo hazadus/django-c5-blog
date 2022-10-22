@@ -2,15 +2,20 @@
 <html>
     <head>
         <title>Django Blog App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Source+Sans+Pro:wght@300&display=swap"
+              rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
     </head>
     <body>
         <header>
-            <h1><a href="{% url 'home' %}">Django Blog - Home</a></h1>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Source+Sans+Pro:wght@300&display=swap"
-                  rel="stylesheet">
-            <link rel="stylesheet" href="{% static 'css/base.css' %}">
+            <div class="nav-left">
+                <h1><a href="{% url 'home' %}">Django Blog - Home</a></h1>
+            </div>
+            <div class="nav-right">
+                <h2><a href="{% url 'create_post' %}">+ New Blog Post</a></h2>
+            </div>
         </header>
         <main>
             {% block content %}

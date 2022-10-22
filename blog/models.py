@@ -14,4 +14,7 @@ class Post(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('post_detail', kwargs={'pk': self.pk})
+        """
+        Used in tests to check if the absolute URL is correct.
+        """
+        return reverse('view_post', kwargs={'pk': self.pk})

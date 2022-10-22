@@ -8,6 +8,7 @@ Tutorial app from ['Django for Beginners' WSV's book](https://learndjango.com/bo
 
 ## References
 - [Detailed Django workflow](https://hazadus.notion.site/Django-Dev-Workflow-f197b6b9f6454e87be6dcbfa9f8f31f1)
+- [WhiteNoise - Radically simplified static file serving for Python web apps](https://whitenoise.evans.io/en/stable/index.html)
 
 ## Starting app
 ```bash

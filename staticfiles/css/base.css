@@ -1,0 +1,71 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+}
+
+header h1 a {
+    color: darkslateblue;
+    font-family: 'Fasthand', cursive;
+    text-decoration: none;
+}
+
+header h2 a {
+    color: darkslateblue;
+    font-family: 'Fasthand', cursive;
+    text-decoration: none;
+}
+
+header h2 a:hover {
+    text-decoration: underline;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+article h2 {
+    font-size: 25px;
+    margin: 0.5rem 0;
+}
+
+article h2 a,
+article h2 a:visited {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+article h2 a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #999;
+    margin-top: 2rem;
+    padding-top: 15px;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+    /*padding-top: 2rem;*/
+    margin-bottom: auto;
+    margin-top: auto;
+}

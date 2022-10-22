@@ -1,3 +1,4 @@
+{% load static %}
 <html>
     <head>
         <title>Django Blog App</title>
@@ -5,6 +6,11 @@
     <body>
         <header>
             <h1><a href="{% url 'home' %}">Django Blog - Home</a></h1>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Source+Sans+Pro:wght@300&display=swap"
+                  rel="stylesheet">
+            <link rel="stylesheet" href="{% static 'css/base.css' %}">
         </header>
         <main>
             {% block content %}
